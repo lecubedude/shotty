@@ -17,13 +17,18 @@ aws configure --profile shotty
 
 # Running the code
 
-'pipenv run "python [path]/shotty.py <command>
+'pipenv run "python [path]/shotty.py <command> <subcommand>
 <--project=PROJECT>"'
 
 # Command Options
 
 commands are:
+instances
+volumes
+snapshots
+
+subcommands are:
 list
+create
 start
 stop
-
