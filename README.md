@@ -18,3 +18,14 @@ aws configure --profile shotty
 # Running the code
 
 'pipenv run "python [path]/shotty.py'
+
+# Command Options
+
+list
+instances
+snapshots
+start
+stop
+create-snapshots
+volumes
+tags
